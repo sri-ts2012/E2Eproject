@@ -1,0 +1,363 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Academy</groupId>
+  <artifactId>E2EProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>E2EProject</name>
+  <url>http://maven.apache.org</url>
+
+        
+  <properties>
+ 
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    
+  </properties>
+  
+
+
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>6.10.3</version>
+</dependency>
+
+  
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>6.10.3</version>
+</dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>6.10.3</version>
+    <scope>test</scope>
+</dependency>
+    
+ 
+   <dependency>
+  <groupId>org.freemarker</groupId>
+  <artifactId>freemarker</artifactId>
+  <version>2.3.31</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+
+
+
+<dependency>
+
+<groupId>commons-io</groupId>
+
+<artifactId>commons-io</artifactId>
+
+<version>2.6</version>
+
+</dependency>
+
+<dependency>
+
+<groupId>junit</groupId>
+
+<artifactId>junit</artifactId>
+
+<version>3.8.1</version>
+ <scope>test</scope>
+
+
+ </dependency>
+
+<!-- POI JARS STARTS -->
+
+
+<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+
+<dependency>
+
+<groupId>dom4j</groupId>
+
+<artifactId>dom4j</artifactId>
+
+<version>1.6.1</version>
+
+</dependency>
+
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+
+<dependency>
+
+<groupId>org.apache.poi</groupId>
+
+<artifactId>poi</artifactId>
+
+<version>4.1.0</version>
+
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+
+<dependency>
+
+<groupId>org.apache.poi</groupId>
+
+<artifactId>poi-ooxml</artifactId>
+
+<version>4.1.0</version>
+
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+
+<dependency>
+
+<groupId>org.apache.poi</groupId>
+
+<artifactId>poi-ooxml-schemas</artifactId>
+
+<version>4.1.0</version>
+
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+
+<dependency>
+
+<groupId>org.apache.xmlbeans</groupId>
+
+<artifactId>xmlbeans</artifactId>
+
+<version>3.1.0</version>
+
+</dependency>
+
+
+<!-- POI JARS ENDS -->
+
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+
+
+
+<dependency>
+
+<groupId>com.aventstack</groupId>
+
+<artifactId>extentreports</artifactId>
+
+<version>4.1.5</version>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+
+
+
+<dependency>
+
+<groupId>org.uncommons</groupId>
+
+<artifactId>reportng</artifactId>
+
+<version>1.1.4</version>
+
+<scope>test</scope>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+<dependency>
+
+<groupId>com.google.inject</groupId>
+
+<artifactId>guice</artifactId>
+
+<version>2.0</version>
+
+</dependency>
+
+<dependency>
+
+<groupId>org.testng</groupId>
+
+<artifactId>testng</artifactId>
+
+<version>6.14.3</version>
+<scope>test</scope>
+
+<!--<scope>test</scope>-->
+
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+
+
+
+<dependency>
+
+<groupId>mysql</groupId>
+
+<artifactId>mysql-connector-java</artifactId>
+
+<version>8.0.20</version>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.14.1</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.14.1</version>
+  </dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+
+
+
+<dependency>
+
+<groupId>org.slf4j</groupId>
+
+<artifactId>slf4j-simple</artifactId>
+
+<version>1.7.30</version>
+
+<scope>test</scope>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+
+
+<dependency>
+
+<groupId>org.seleniumhq.selenium</groupId>
+
+<artifactId>selenium-java</artifactId>
+
+<version>3.141.59</version>
+
+</dependency>
+
+
+
+
+
+
+
+</dependencies>
+<build>
+<resources>
+
+
+
+
+<resource>
+
+<directory>src/main/java/resources</directory>
+
+<filtering>true</filtering>
+ 
+
+</resource>
+
+  <resource>
+
+<directory>src/test/resources/log</directory>
+
+ 
+
+</resource>
+
+<resource>
+
+<directory>src/test/java</directory>
+
+ 
+
+</resource>
+  
+     
+      
+     
+  </resources>
+ 
+       
+    
+    
+     
+
+<plugins>
+   
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.12.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+            
+          </suiteXmlFiles>
+          </configuration>
+         
+        
+      </plugin>
+      
+   
+      
+   <!-- log4jconfig errors coming  in console so to overcome that -->
+
+
+ <!-- log4jconfig errors coming  in console so to overcome that  ends here-->
+  
+   <!-- mvn errors coming  in console so to overcome that -->
+  
+   
+       
+         <!-- mvn errors coming  in console so to overcome that  ends here-->
+         
+</plugins>
+</build>
+
+</project>

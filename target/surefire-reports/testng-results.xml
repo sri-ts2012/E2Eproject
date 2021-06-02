@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22824" started-at="2021-04-20T17:01:42Z" finished-at="2021-04-20T17:02:05Z">
+    <groups>
+    </groups>
+    <test name="validatelandingPagetest" duration-ms="12720" started-at="2021-04-20T17:01:42Z" finished-at="2021-04-20T17:01:55Z">
+      <class name="Academy.testcases.validateLandingPagetest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Academy.testcases.validateLandingPagetest@2fd1433e]" name="setUp" is-config="true" duration-ms="12187" started-at="2021-04-20T17:01:42Z" finished-at="2021-04-20T17:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doBaseTestnavigation()[pri:0, instance:Academy.testcases.validateLandingPagetest@2fd1433e]" name="doBaseTestnavigation" duration-ms="89" started-at="2021-04-20T17:01:54Z" finished-at="2021-04-20T17:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBaseTestnavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.testcases.validateLandingPagetest@2fd1433e]" name="tearDown" is-config="true" duration-ms="433" started-at="2021-04-20T17:01:54Z" finished-at="2021-04-20T17:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.testcases.validateLandingPagetest -->
+    </test> <!-- validatelandingPagetest -->
+    <test name="ValidateLoginPagetest" duration-ms="22824" started-at="2021-04-20T17:01:42Z" finished-at="2021-04-20T17:02:05Z">
+      <class name="Academy.testcases.ValidateLoginPagetest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Academy.testcases.ValidateLoginPagetest@429bffaa]" name="setUp" is-config="true" duration-ms="7031" started-at="2021-04-20T17:01:42Z" finished-at="2021-04-20T17:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:Academy.testcases.ValidateLoginPagetest@429bffaa]" name="doLogin" duration-ms="10061" started-at="2021-04-20T17:01:49Z" data-provider="getData" finished-at="2021-04-20T17:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricetduser@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nonrestricetddpawd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:Academy.testcases.ValidateLoginPagetest@429bffaa]" name="doLogin" duration-ms="5482" started-at="2021-04-20T17:01:59Z" data-provider="getData" finished-at="2021-04-20T17:02:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@test2.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restriceted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.testcases.ValidateLoginPagetest@429bffaa]" name="tearDown" is-config="true" duration-ms="159" started-at="2021-04-20T17:02:04Z" finished-at="2021-04-20T17:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.testcases.ValidateLoginPagetest -->
+    </test> <!-- ValidateLoginPagetest -->
+  </suite> <!-- Suite -->
+</testng-results>

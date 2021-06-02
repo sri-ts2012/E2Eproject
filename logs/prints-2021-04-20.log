@@ -1,0 +1,6 @@
+22:31:49.307 [TestNG-tests-2] INFO  Academy.BaseTest.BaseTest - opened chrome
+22:31:49.443 [TestNG-tests-1] INFO  Academy.BaseTest.BaseTest - opened chrome
+22:31:53.650 [TestNG-tests-2] INFO  Academy.BaseTest.BaseTest - Navigating to the URL : http://www.qaclickacademy.com/
+22:31:54.049 [TestNG-tests-2] INFO  Academy.BaseTest.BaseTest - window maximized
+22:31:54.271 [TestNG-tests-1] INFO  Academy.BaseTest.BaseTest - Navigating to the URL : http://www.qaclickacademy.com/
+22:31:54.469 [TestNG-tests-1] INFO  Academy.BaseTest.BaseTest - window maximized
