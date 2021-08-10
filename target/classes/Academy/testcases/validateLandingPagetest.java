@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import Academy.BaseTest.BaseTest;
 import Academy.Pages.LandingPage;
 import Academy.Pages.LoginPage;
@@ -22,6 +24,7 @@ public class validateLandingPagetest extends BaseTest {
 			driver= openBrowser("chrome");
 			// openBrowser("chrome");
 		 log.info("opened chrome");
+		 //test.log(Status.INFO, "InsidedoLoginTest");
 			// log.info("testing");
 			 openURL();
 			 

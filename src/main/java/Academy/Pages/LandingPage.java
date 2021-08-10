@@ -87,7 +87,7 @@ public class LandingPage extends BasePage {
 			return new LoginPage(driver);
 			
 		}
-//below is not page factories
+//below is not page factories only pom
 
 		By title=By.cssSelector(".text-center>h2");
 
@@ -165,7 +165,7 @@ public class LandingPage extends BasePage {
 
 */
 		//till above rahul shetty code
-//it shuld be something like below with page factories
+//below rahularora code
 
 /*public WebDriver driver;
 	

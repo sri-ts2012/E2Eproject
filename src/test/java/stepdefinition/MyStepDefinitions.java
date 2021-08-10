@@ -5,6 +5,7 @@ import io.cucumber.junit.Cucumber;
 
 
 import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import Academy.BaseTest.BaseTest;
@@ -19,6 +20,7 @@ import io.cucumber.java.en.When;
 @RunWith(Cucumber.class)
 public class MyStepDefinitions extends BaseTest {
 
+	//public WebDriver driver; cant declare like this? as ogther tcs?
 	@Given("^Initilize the browser with chrome$")
     public void initilize_the_browser_with_chrome() throws Throwable {
 		 initiliaze();
@@ -34,7 +36,7 @@ public class MyStepDefinitions extends BaseTest {
 
 	    @And("^click on login link to land on secure sign page$")
 	    public void click_on_login_link_to_land_on_secure_sign_page() throws Throwable {
-	    	LandingPage land_page=new LandingPage(driver);
+	    	LandingPage land_page=new LandingPage(driver);//can be below the class instead of here 
 	    	land_page.clickLoginlink(); 
 	    }
 
